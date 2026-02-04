@@ -1,0 +1,414 @@
+.filmplus {
+    margin-top: 15px;
+    margin-right: 21px;
+}
+
+.filmplus_container button {
+    margin-right: 5px;
+    border: 0;
+    padding: 5px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 12px;
+    background: #ddd;
+    -webkit-appearance: none;
+}
+
+.filmplus_header {
+    width: 800px;
+    overflow: hidden;
+    height: auto;
+    background: #0f0f0f;
+    margin: 0 auto;
+}
+
+.filmplus_header img {
+    float: left;
+}
+
+.filmplus_header ul {
+    list-style: none;
+    float: right;
+}
+
+.filmplus_header a {
+    font-size: 11px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.filmplus .logo {
+    margin: 30px 30px 20px 20px;
+}
+
+.filmplus .main_tabs {
+    list-style: none;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    background: #e30e0e;
+    height: auto;
+    padding-top: 10px;
+    margin-top: -2px;
+    padding-bottom: 3px;
+}
+
+.filmplus .main_tabs li {
+    float: left;
+    color: #fff;
+}
+
+.filmplus .main_tabs li a {
+    display: block;
+    float: left;
+    padding: 1px 12px;
+    font-size: 15px;
+}
+
+.filmplus .main_tabs li a:hover,
+.filmplus .main_tabs li.selected a {
+    color: #fff;
+    text-shadow: 1px 1px #4e535b;
+}
+
+.filmplus .main_tabs li.selected {}
+
+.filmplus .main_tabs li:first-child {
+    -moz-border-radius-topleft: 8px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.filmplus .main_tabs .general {
+    background: transparent;
+    width: auto;
+    font-family: Poppins, arial, serif;
+    font-size: 15px;
+}
+
+.filmplus .main_tabs .homepage {
+    width: auto;
+}
+
+.filmplus .main_tabs .posts {
+    background: url('images/post_icon.png') no-repeat;
+    width: 132px;
+}
+
+.filmplus .main_tabs .appearence {
+    width: auto;
+}
+
+.filmplus .main_tabs .seo {
+    width: auto;
+}
+
+.filmplus_container {
+    background: #333;
+    width: 800px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: -12px;
+}
+
+.filmplus .sub_tabs {
+    border: 0px;
+    height: auto;
+    overflow: hidden;
+    border-bottom: 2px solid #666;
+}
+
+.filmplus .sub_tabs ul {
+    list-style: none;
+    overflow: hidden;
+    background: #121314;
+    height: auto;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: -5px;
+}
+
+.filmplus .sub_tabs li {
+    float: left;
+}
+
+.filmplus .sub_tabs li a {
+    font-size: 13px;
+    color: #ccc;
+    float: left;
+    text-decoration: none;
+    height: auto;
+    padding: 0 13px;
+    line-height: 36px;
+    font-family: Poppins, arial, serif;
+}
+
+.filmplus .sub_tabs li.selected a {
+    color: #fff;
+}
+
+.filmplus .top_button {
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.filmplus .top_button img {
+    margin-right: 8px;
+    float: left;
+}
+
+.filmplus .top_button input {
+    float: left;
+    background: url('images/save_btn.png') no-repeat top left;
+    width: 155px;
+    height: 30px;
+    border: 0;
+    cursor: pointer;
+}
+
+.filmplus .top_button input:hover {
+    background-position: bottom left;
+}
+
+.filmplus .reset_save {
+    margin-bottom: 15px;
+}
+
+.filmplus .bottom_button {
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.filmplus .bottom_button img {
+    margin-right: 8px;
+    float: left;
+}
+
+.filmplus .bottom_button input {
+    float: left;
+    background: url('images/save_btn.png') no-repeat top left;
+    width: 136px;
+    height: 28px;
+    border: 0;
+    cursor: pointer;
+}
+
+.filmplus .bottom_button input:hover {
+    background-position: bottom left;
+}
+
+.filmplus .reset_button {
+    float: left;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.filmplus .reset_button img {
+    margin-left: 8px;
+    float: left;
+}
+
+.filmplus .reset_button input {
+    float: left;
+    background: url('images/reset_btn.png') no-repeat top left;
+    width: 98px;
+    height: 28px;
+    border: 0;
+    cursor: pointer;
+}
+
+.filmplus .reset_button input:hover {
+    background-position: bottom left;
+}
+
+.filmplus .field {
+    background: #0b0a0a;
+    padding: 15px;
+    overflow: hidden;
+    border-bottom: 2px solid #666;
+}
+
+.filmplus .field label {
+    font-size: 13px;
+    color: #ababab;
+    float: left;
+    font-weight: bold;
+    font-family: Poppins, arial, serif;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.filmplus .field .input {
+    width: 100%;
+    float: left;
+}
+
+.filmplus .field .desc {
+    float: left;
+    color: #858484;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, arial, serif;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.filmplus .field .desc_checkbox {
+    float: left;
+    color: #858485;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.filmplus .field input[type=text] {
+    color: #828282;
+    font-size: 12px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    float: left;
+    height: 28px;
+    background: #fff;
+}
+
+.filmplus .field textarea {
+    background: #fff;
+    color: #828282;
+    font-size: 12px;
+    border: 1px solid #d0d0d0;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    height: 120px;
+    float: right;
+    border-radius: 2px;
+}
+
+.filmplus .upload_button {
+    background: url('images/upload_btn.png') no-repeat top left;
+    width: 44px;
+    height: 30px;
+    border: 0px;
+    text-indent: -10000px;
+    float: right;
+    margin-top: 1px;
+}
+
+.filmplus .upload_button:hover {}
+
+.filmplus select {
+    width: 100%;
+    float: left;
+    border-radius: 2px;
+}
+
+.filmplus .checkbox input {
+    float: left;
+    margin: 0;
+}
+
+.filmplus .checkbox label {
+    float: left;
+    width: calc(100% - 90px);
+    margin-left: 5px;
+    font-weight: normal;
+}
+
+.filmplus .images .input img {
+    padding: 4px;
+    border: 1px solid #dddddd;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.filmplus .images .input img.selected {
+    border: 2px solid #7b7b7b;
+}
+
+.filmplus .skins .input img {
+    padding: 4px;
+    border: 1px solid #dddddd;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.filmplus .skins .input img.selected {
+    border: 2px solid #7b7b7b;
+}
+
+.filmplus .colorpicker_wrapper .input {
+    position: relative;
+}
+
+.filmplus .colorpicker_wrapper .input input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.filmplus .colorSelector {
+    position: absolute;
+    top: 6px;
+    right: 40px;
+}
+
+a.logo {
+    font-weight: 900;
+    font-size: 35px;
+    letter-spacing: .02rem;
+    -moz-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: subpixel-antialiased;
+    color: #fff;
+    font-family: Poppins, arial, serif;
+    line-height: 73px;
+    text-transform: none;
+}
+
+.field.checkbox {
+    padding-top: 22px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .filmplus_header {
+        width: 100%;
+    }
+    .filmplus_container {
+        width: 100%;
+    }
+    .filmplus select {
+        width: 100%;
+        height: auto !important;
+        font-size: 14px !important;
+    }
+    .filmplus .upload_button {
+        float: right;
+    }
+}
+
+input#filmplus_logo_label {
+    width: calc(100% - 52px);
+}
+
+input#filmplus_favicon_label {
+    width: calc(100% - 52px);
+}
+
+.filmplus a:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
